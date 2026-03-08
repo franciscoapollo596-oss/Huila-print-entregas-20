@@ -21,7 +21,7 @@ class LoginPageModel extends FlutterFlowModel<LoginPageWidget> {
   TabController? tabBarController;
   int get tabBarCurrentIndex =>
   int get tabBarPreviousIndex =>
-      tabBarController != null ? tabBarController!.previousIndex : 0;
+    
 
   // State field(s) for emailAddress widget.
   FocusNode? emailAddressFocusNode;
